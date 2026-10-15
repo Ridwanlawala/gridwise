@@ -1,0 +1,26 @@
+{
+  "name": "gridwise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GridWise: an offline-first energy planner, prepaid-credit forecaster and community outage map for Ghanaian homes and small businesses.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.22",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.7",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.4"
+  }
+}
